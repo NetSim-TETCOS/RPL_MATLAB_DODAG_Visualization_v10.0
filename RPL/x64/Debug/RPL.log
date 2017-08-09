@@ -1,0 +1,30 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Trickle.c
+  SequenceNumber.c
+  RPL_Message.c
+  RPL_enum.c
+  RPL.c
+d:\krishna chaitanya\23-06\netsim_rpl_matalb_interface\rpl\rpl.c(18): warning C4028: formal parameter 1 different from declaration
+  Neighbor.c
+  MATLAB_Interface.c
+c:\program files\matlab\r2016a\extern\include\mex.h(190): warning C4005: 'printf': macro redefinition
+  d:\krishna chaitanya\23-06\netsim_rpl_matalb_interface\include\main.h(212): note: see previous definition of 'printf'
+  DODAG.c
+  DIS.c
+  DIO.c
+  DAO.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\Krishna Chaitanya\23-06\NETSIM_RPL_MATALB_INTERFACE\RPL\..\Dll\RPL.dll) does not match the Linker's OutputFile property value (D:\Krishna Chaitanya\23-06\NETSIM_RPL_MATALB_INTERFACE\Dll\libRPL.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(RPL) does not match the Linker's OutputFile property value (libRPL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DAO.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  RPLlib.lib(RPLlib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+DAO.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\RPL.lib and object ..\Dll\RPL.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+RPLlib.lib(RPLlib.obj) : warning LNK4099: PDB 'RPLlib.pdb' was not found with 'RPLlib.lib(RPLlib.obj)' or at 'D:\Krishna Chaitanya\23-06\NETSIM_RPL_MATALB_INTERFACE\Dll\RPLlib.pdb'; linking object as if no debug info
+IP.lib(IPLib.obj) : warning LNK4099: PDB 'IPLib.pdb' was not found with 'IP.lib(IPLib.obj)' or at 'D:\Krishna Chaitanya\23-06\NETSIM_RPL_MATALB_INTERFACE\Dll\IPLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'D:\Krishna Chaitanya\23-06\NETSIM_RPL_MATALB_INTERFACE\Dll\List.pdb'; linking object as if no debug info
+  RPL.vcxproj -> D:\Krishna Chaitanya\23-06\NETSIM_RPL_MATALB_INTERFACE\RPL\..\Dll\RPL.dll
+  RPL.vcxproj -> ..\Dll\RPL.pdb (Full PDB)
